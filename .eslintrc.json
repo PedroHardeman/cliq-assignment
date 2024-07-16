@@ -1,8 +1,11 @@
 {
-  "plugins": ["import"],
+  "plugins": [
+    "import"
+  ],
   "extends": [
     "next/core-web-vitals",
     "eslint:recommended",
+    "plugin:storybook/recommended",
     "plugin:storybook/recommended"
   ],
   "rules": {
@@ -33,7 +36,9 @@
             "position": "before"
           }
         ],
-        "pathGroupsExcludedImportTypes": ["react"],
+        "pathGroupsExcludedImportTypes": [
+          "react"
+        ],
         "newlines-between": "never"
       }
     ]
